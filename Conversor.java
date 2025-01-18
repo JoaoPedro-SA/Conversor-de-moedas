@@ -6,7 +6,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class Conversor {
-        public static Moeda buscaMoeda(String moedaBase, String moedaConvertida, double quantia) {
+        public static Moeda buscaMoeda(String moedaBase) {
             URI conversor = URI.create("https://v6.exchangerate-api.com/v6/faa274f4e80f30d8b025fc85/latest/"+ moedaBase);
 
             HttpRequest request = HttpRequest.newBuilder()
@@ -23,9 +23,5 @@ public class Conversor {
             } catch (Exception e) {
                 throw new RuntimeException("Não consegui obter o valor da moeda");
             }
-
         }
-
-
 }
-
