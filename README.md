@@ -6,4 +6,4 @@ Esta é uma aplicação java que utiliza da api exchangerate para receber uma mo
 
 A aplicação é totalmente feita com Java e tem como o principal objetivo ser uma experienca de como usar apis no Java.
 
-É necessario ter a biblioteca Gson para a aplicação funcionar
+É necessario ter a biblioteca Gson para a aplicação funcionar ..
